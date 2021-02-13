@@ -13,7 +13,7 @@ function footwear() {
         case "hot" : thefootwear = "Sandals"; break;
         case "rain" : thefootwear = "Galoshes"; break;
         case "snow" : thefootwear = "Bots"; break;
-        case "unknow": thefootwear = "shoes"; break;
+        case "another": thefootwear = "Shoes"; break;
         default: thefootwear = "Choose an option"; break;
     }
 
