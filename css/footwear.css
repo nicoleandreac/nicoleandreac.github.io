@@ -5,14 +5,14 @@ h1 {
     font-family: 'Merriweather', serif;
     font-size: 2.7em;
     font-weight: 900;
-    color: black;
+    color: rgb(29, 29, 146);
 }
 h3, h2 {
     font-family: 'Montserrat', sans-serif;
 }
   p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 body {
     
@@ -25,11 +25,10 @@ body {
     margin: auto;
 }
 header {
-    background-image: url(https://www.publicdomainpictures.net/pictures/380000/velka/digitalisierung-2012004.jpg);
+    background-image: url(https://www.publicdomainpictures.net/pictures/310000/velka/himmel-wolken-landschaft-natur-1573914465rEb.jpg);
     padding-left: 4em;
     padding-top: 4em;
     padding-bottom: 4em;
-    border-bottom: #4f9fc2;
 }
 main {
     padding: 4em 2em 3em 2em;
@@ -41,24 +40,24 @@ label {
     width: 200px;
     text-align: left;
     margin-right: .5em;
+    margin-top: 3em;
 }
 .youranswer {
     margin-left: 1.5em;
 }
 
-input, select {
+select {
     font-size: 1em;
     padding: 0.5em;
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
     box-sizing: border-box;
     border: 1px solid #1b1b1e;
     border-radius: 10px;
 }
 button {
     color: white;
-    background-color: #4f9fc2;
-    padding: 1em 2em 1em 2em;
+    background-color: rgb(29, 29, 146);
+    padding: 1em 1.5em 1em 1.5em;
     font-size: 1em;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -67,10 +66,10 @@ button {
     margin-left: 2em;
 }
 #output {
-    color: #4f9fc2;
+    color: rgb(29, 29, 146);
     font-size: 1.4em;
-    font-weight: bold; 
-    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;  
+    font-family: 'Montserrat', sans-serif;
 }
 footer {
     background: black;

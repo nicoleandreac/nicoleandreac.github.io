@@ -11,9 +11,16 @@
         <h1>My Calculator</h1>
     </header>
     <main>
-        <h3>To calculate!</h3>
+        <h2>To calculate!</h2>
+        <p>When you write your answer, REMEMBER! The program admites up until three decimals.</p>
         <label>Enter the first number: <input type="text" id="firstnumber"></label>
-        <label>Enter an operator: <input type="text" id="operator"></label>
+        <label>Enter an operator<select id="operator">
+            <option value="">--Chose Operator--</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select></label>
         <label>Enter the second numer: <input type="text" id="secondnumber"></label>
         <label class="youranswer">Enter your answer: <input type="text" id="answer"></label>
         <label><button onclick="myresult()">Check your answer</button></label>

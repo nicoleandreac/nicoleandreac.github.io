@@ -17,17 +17,20 @@ function myresult() {
         case "-" : result = num1 - num2; break;
         case "/" : result = num1 / num2; break;
         case "*" : result = num1 * num2; break;
-        default: result = "None"; alert ("Remember to use * / + or -"); break;
+        default: result = "none"; break;
     }
+    let digits = 3;
+    let multiplier = Math.pow(10, digits);
+    result = Math.round(result * multiplier) / multiplier;
 
     // PROCESS: To compare it to the user's answer.
     let programanswer;
     if (result == answer) {
         programanswer = "Correct! 🏆";
     } else {
-        programanswer = "Incorrect 😢"
+        programanswer = "Incorrect 😢. The correct answer is " + result;
 }
 
-    // OUTPUT: Display the kilogram masurement to the user.
+    // OUTPUT: Display if the answer from the user is correct or incorrect.
     document.getElementById('output').innerHTML = programanswer;
 }
