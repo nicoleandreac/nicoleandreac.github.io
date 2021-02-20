@@ -23,7 +23,7 @@ function myalarm() {
     } else {
         result = "Get up!";
     }
-    }
+    
 
     // OUTPUT: Display if I can sleep in or get up..
     document.getElementById('output').innerHTML = result;
